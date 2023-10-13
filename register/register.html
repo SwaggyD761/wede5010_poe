@@ -1,0 +1,32 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="css/registerStyles.css"> <!-- Link to an external CSS file -->
+    <style>
+        /* Inline CSS styles can also be defined here */
+    </style>
+    <script>
+        function loadIframe() {
+            if (window.innerWidth >= 900) {
+                document.getElementById("largeIframe").style.display = "block";
+                document.getElementById("smallIframe").style.display = "none";
+            } else {
+                document.getElementById("largeIframe").style.display = "none";
+                document.getElementById("smallIframe").style.display = "block";
+            }
+        }
+    
+        // Load the appropriate iframe when the page loads and when the window is resized.
+        window.addEventListener("load", loadIframe);
+        window.addEventListener("resize", loadIframe);
+    </script>
+</head>
+
+<body>
+    <iframe id="largeIframe" src="largeRegister.html"></iframe>
+    <iframe id="smallIframe" src="smallRegister.html"></iframe>
+</body>
+</html>
