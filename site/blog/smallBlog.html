@@ -6,18 +6,79 @@
     <title>LOGIN</title>
     <link rel="stylesheet" href="css/smallBlogStyles.css"> <!-- Link to an external CSS file -->
     <style>
-        /* Inline CSS styles can also be defined here */
+        /* Style for the dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* Style for the dropdown toggle button */
+        .dropdown-toggle {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+        /* Style for the dropdown menu */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border: 1px solid #ccc;
+            z-index: 1;
+        }
+        
+        /* Style for the dropdown menu items */
+        .dropdown-menu li {
+            padding: 5px;
+        }
+        
+        /* Hover effect for dropdown menu items */
+        .dropdown-menu li:hover {
+            background-color: #ddd;
+        }
+
     </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const dropdownToggle = document.querySelector(".dropdown-toggle");
+            const dropdownMenu = document.querySelector(".dropdown-menu");
+        
+            dropdownToggle.addEventListener("click", function () {
+                dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+            });
+        
+            // Close the dropdown when clicking outside of it
+            document.addEventListener("click", function (event) {
+                if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.style.display = "none";
+                }
+            });
+        });
+
+    </script>
 </head>
 <body>
     <div class="blog-phone-v-2">
       <div class="navbar">
         <div class="navbar-left">
           <div class="home">
-            <div class="home2">HOME</div>
-          </div>
-          <div class="frame-36">
-            <div class="">&gt;</div>
+            <div class="home2">
+                <div class="dropdown-toggle">home</div>
+                <ul class="dropdown-menu">
+                    <li><a class="link" href="smallhome.html">HOME</a></li>
+                    <li><a class="link" href="../products/products.html">SHOP</a></li>
+                    <li><a class="link" href="../products/products.html">SERVICES</a></li>
+                    <li><a class="link" href="../blog/Blog.html">BLOG</a></li>
+                    <li><a class="link" href="../contact/ContactUs.html">CONTACT US</a></li>
+                    <li><a class="link" href="../account/lAccount.html">ACCOUNT</a></li>
+                </ul>
+            </div>
           </div>
         </div>
         <div class="site-title">
