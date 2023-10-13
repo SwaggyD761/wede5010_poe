@@ -9,20 +9,20 @@
         /* Inline CSS styles can also be defined here */
     </style>
     <script>
-    function loadIframe() {
-        if (window.innerWidth >= 900) {
-            document.getElementById("largeIframe").style.display = "block";
-            document.getElementById("smallIframe").style.display = "none";
-        } else {
-            document.getElementById("largeIframe").style.display = "none";
-            document.getElementById("smallIframe").style.display = "block";
+        function loadIframe() {
+            if (window.innerWidth >= 900) {
+                document.getElementById("largeIframe").style.display = "block";
+                document.getElementById("smallIframe").style.display = "none";
+            } else {
+                document.getElementById("largeIframe").style.display = "none";
+                document.getElementById("smallIframe").style.display = "block";
+            }
         }
-    }
-
-    // Load the appropriate iframe when the page loads and when the window is resized.
-    window.addEventListener("load", loadIframe);
-    window.addEventListener("resize", loadIframe);
-</script>
+    
+        // Load the appropriate iframe when the page loads and when the window is resized.
+        window.addEventListener("load", loadIframe);
+        window.addEventListener("resize", loadIframe);
+    </script>
 
   
 </head>
