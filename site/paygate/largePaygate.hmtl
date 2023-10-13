@@ -10,6 +10,200 @@
     </style>
 </head>
 <body>
-    
+    <div class="paygate">
+      <div class="cart-check-out">
+        <div class="check-out-item">
+          <div class="item">
+            <div class="image"></div>
+            <div class="index"></div>
+            <div class="title"></div>
+            <div class="price"></div>
+            <div class="amount"></div>
+          </div>
+          <div class="edit-button"></div>
+          <div class="delete-button"></div>
+        </div>
+        <div class="header-display"></div>
+      </div>
+      <div class="payment-confirmation">
+        <div class="form-container">
+          <div class="form-header"></div>
+          <div class="delivry-details-form">
+            <div class="username-display">
+              <div class="username-label"></div>
+              <div class="username-display-box"></div>
+            </div>
+            <div class="email-dsiplay">
+              <div class="email-label"></div>
+              <div class="email-dsiplay-box"></div>
+            </div>
+            <div class="address-line-display">
+              <div class="address-line-label"></div>
+              <div class="address-line-display-box"></div>
+            </div>
+            <div class="card-display">
+              <div class="card-label"></div>
+              <div class="card-input"></div>
+            </div>
+            <div class="cart-number-display">
+              <div class="cart-number-lable"></div>
+              <div class="cart-number-display-box"></div>
+            </div>
+            <div class="total-display">
+              <div class="total-label"></div>
+              <div class="total-display-box"></div>
+            </div>
+            <div class="coupon-display">
+              <div class="coupon-label"></div>
+              <div class="coupon-drop-downinput"></div>
+            </div>
+            <div class="submit-button"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card-display2">
+          <div class="register-card-form">
+            <div class="bank-name-entry">
+              <div class="bank-name-label"></div>
+              <div class="bank-name-input"></div>
+            </div>
+            <div class="account-holders-entry">
+              <div class="account-holder-details-lable"></div>
+              <div class="account-holder-details-input"></div>
+            </div>
+            <div class="account-number-entry">
+              <div class="account-number-label"></div>
+              <div class="account-number-input"></div>
+            </div>
+            <div class="card-number-entry">
+              <div class="card-number-label"></div>
+              <div class="card-number-input"></div>
+            </div>
+            <div class="cvv-entry">
+              <div class="cvv-code-lable"></div>
+              <div class="cvv-code-input"></div>
+            </div>
+            <div class="branch-code-entry">
+              <div class="branch-code-label"></div>
+              <div class="branch-code-input"></div>
+            </div>
+            <div class="submit-button2"></div>
+          </div>
+        </div>
+        <div class="controlsa">
+          <div class="view-cards"></div>
+          <div class="add-card"></div>
+          <div class="edit-card-info"></div>
+        </div>
+      </div>
+      <div class="adverts-display"></div>
+      <div class="delivery-details-and-cart-suggestions">
+        <div class="form-container2">
+          <div class="form-header2"></div>
+          <div class="delivry-details-form2">
+            <div class="house-number-entry">
+              <div class="house-number-label"></div>
+              <div class="house-number-input"></div>
+            </div>
+            <div class="street-name-entry">
+              <div class="street-name-label"></div>
+              <div class="street-name-input"></div>
+            </div>
+            <div class="surburb-entry">
+              <div class="surburb-label"></div>
+              <div class="surburb-input"></div>
+            </div>
+            <div class="city-entry">
+              <div class="city-label"></div>
+              <div class="city-input"></div>
+            </div>
+            <div class="province-entry">
+              <div class="province-lable"></div>
+              <div class="province-input"></div>
+            </div>
+            <div class="postal-code-entry">
+              <div class="postal-code-label"></div>
+              <div class="postal-code-input"></div>
+            </div>
+            <div class="country-entry">
+              <div class="country-label"></div>
+              <div class="country-drop-downinput"></div>
+            </div>
+            <div class="submit-button3"></div>
+          </div>
+        </div>
+        <div class="item-suggestion">
+          <div class="header">
+            <div class="header-title"></div>
+          </div>
+          <div class="suggestion-display">
+            <div class="suggestion">
+              <div class="item-suggested">
+                <div class="image2"></div>
+                <div class="index2"></div>
+                <div class="title2"></div>
+                <div class="price2"></div>
+                <div class="amount2"></div>
+              </div>
+              <div class="add-button"></div>
+              <div class="dislike-button"></div>
+            </div>
+            <div class="suggestion2">
+              <div class="item-suggested">
+                <div class="image2"></div>
+                <div class="index2"></div>
+                <div class="title2"></div>
+                <div class="price2"></div>
+                <div class="amount2"></div>
+              </div>
+              <div class="add-button"></div>
+              <div class="dislike-button"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="navbar-right">
+          <div class="blog">
+            <div class="blog2">BLOG</div>
+          </div>
+          <div class="account">
+            <div class="account2">ACCOUNT</div>
+          </div>
+          <div class="contact-us">
+            <div class="contact-us2">CONTACT US</div>
+          </div>
+        </div>
+        <div class="navbar-left">
+          <div class="home">
+            <div class="home2">HOME</div>
+          </div>
+          <div class="services">
+            <div class="services2">SERVICES</div>
+          </div>
+          <div class="shop">
+            <div class="shop2">SHOP</div>
+          </div>
+        </div>
+        <div class="site-title">
+          <div class="wood-x-spply">WOOD-X SPPLY</div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="frame-11">
+          <div class="logo"></div>
+          <div class="company-name">
+            <div class="wood-x-familia-2017">
+              <span
+                ><span class="wood-x-familia-2017-span">WOOD X FAMILIA™<br /></span
+                ><span class="wood-x-familia-2017-span2">© 2017</span></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </body>
 </html>
